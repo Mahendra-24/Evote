@@ -53,13 +53,7 @@ https://templatemo.com/tm-548-training-studio
                         <a href="index.html" class="logo">eVoting</a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="votee.php">VOTE NOW!!!!!</a></li>
-                            <li class="scroll-to-section"><a href="#">Update User's Password</a></li>
-                            <li class="scroll-to-section"><a href="#">Update User's Profile</a></li>
-                            <li><a href=".\index.html">Sign Out</a></li>
-                            <li></li>
-                        </ul>
+
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
@@ -80,10 +74,36 @@ https://templatemo.com/tm-548-training-studio
                 <h6>Webixun Infoways</h6>
                 <h2>Online <em>Voting </em>System</h2>
                 <h6><em>Safe .Reliable .Secure .Fast</em></h6>
+                </br>
+                </br>
+                <!--*****Form Section Start Here********-->
+                <form method="POST" action="login.php">
+                    <h3 style="color: rgb(223, 68, 12);" class="specialHead">Vote Now!</h3>
+                    <p style="color:white;" class="normalFont">Choose Your Right Candidate </p>
+                    </br>
+                    </br>
+                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\BJP.png" style="width: 50px; height: 50px;">     <span style="font-size:25px;">  Bharatiya Janata Party  </span>       <input type="radio"> 
+                         </pre>
+                    </br>
+                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\APP.png" style="width: 50px; height: 50px;">     <span style="font-size:25px;">  Aam Aadmi Party         </span>       <input type="radio"> 
+                    </pre>
+                    </br>
+                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\BSP.png" style="width: 50px; height: 50px;">     <span style="font-size:25px;">  Bahujan Samaj Party     </span>       <input type="radio"> 
+                    </pre>
+                    </br>
+                
+                    <button type="submit" name="submit" style="background-color: rgb(223, 68, 12) ;"><strong>Log
+                            In</strong></button>
+
+
+
+
+
+                </form>
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
+    <!-- ***** Form Section End Here ***** -->
 
     <!-- ***** Footer Start ***** -->
     <footer>

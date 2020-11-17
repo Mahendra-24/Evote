@@ -44,72 +44,58 @@ https://templatemo.com/tm-548-training-studio
 
 
     <!-- ***** Header Area Start ***** -->
-    <div>
-        <header class="header-area header-sticky header-text container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="main-nav">
-                            <!-- ***** Logo Start ***** -->
-                            <a href="index.html" class="logo">eVoting</a>
-                            <!-- ***** Logo End ***** -->
-                            <!-- ***** Menu Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">eVoting</a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
 
-                            <a class='menu-trigger'>
-                                <span>Menu</span>
-                            </a>
-                            <!-- ***** Menu End ***** -->
-                        </nav>
-                    </div>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
                 </div>
             </div>
-        </header>
-    </div>
+        </div>
+    </header>
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Main Banner Area Start ***** -->
-    <div class="main-banner container-fluid">
-        <img style="height: 850px;width: 1600px;" src=".\voteIndia.jpg" alt="" class="center">
+    <div class="main-banner" id="top">
+        <img src=".\voteIndia.jpg" alt="" class="center">
 
-        <div class="video-overlay">
+        <div class="video-overlay header-text">
             <div class="caption">
-
                 <h6>Webixun Infoways</h6>
                 <h2>Online <em>Voting </em>System</h2>
                 <h6><em>Safe .Reliable .Secure .Fast</em></h6>
                 </br>
-
+                </br>
                 <!--*****Form Section Start Here********-->
                 <form method="POST" action="login.php">
-                    <h3 style="color: rgb(223, 68, 12);" class="specialHead">Vote Now!</h3>
-                    <p style="color:white;" class="normalFont">Choose Your Right Candidate </p>
+                    <h3 style="color: rgb(223, 68, 12);" class="specialHead">RESET YOUR PASSWORD</h3>
+                   
+                    </br>
+ 
+                    <input id="id1" type="password" name="loginPass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+                        placeholder="Enter your password">
                     </br>
                     </br>
-                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\BJP.png" style="width: 70px; height: 70px;">     <span style="font-size:25px;">  Bharatiya Janata Party  </span>       <input type="radio"> 
-                         </pre>
+                   
+                    
+                    <input id="id1" type="password" name="loginPass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+                        placeholder="Re-Enter your password">
                     </br>
-                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\APP.png" style="width: 70px; height: 70px;">     <span style="font-size:25px;">  Aam Aadmi Party         </span>       <input type="radio"> 
-                    </pre>
                     </br>
-                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\BSP.png" style="width: 70px; height: 70px;">     <span style="font-size:25px;">  Bahujan Samaj Party     </span>       <input type="radio"> 
-                    </pre>
-                    </br>
-                    <pre style="color: rgb(223, 68, 12);">   <img src=".\images\AIT.png" style="width: 70px; height: 70px;">     <span style="font-size:25px;">   All India Trinamool Congress  </span> <input type="radio"> 
-                    </pre>
-                    </br>
-                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\Congress.png" style="width: 70px; height: 70px;"><span style="font-size:25px;">     Indian National Congress  </span>      <input type="radio"> 
-                    </pre>
-                    </br>
-                    <pre style="color: rgb(223, 68, 12);"> <img src=".\images\baspa.png" style="width: 70px; height: 70px;">   <span style="font-size:25px;">    Samajwadi Party           </span>      <input type="radio"> 
-                    </pre>
-                    </br>
-                    <button type="submit" name="submit" style="background-color: rgb(223, 68, 12) ;"><strong>Log
-                            In</strong></button>
-
-
-
-
-
+                   
+                   
+                    <button type="submit" name="submit" style="background-color: rgb(223, 68, 12) ;"><strong>Submit</strong></button>
+                   
                 </form>
             </div>
         </div>
